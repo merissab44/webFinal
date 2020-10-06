@@ -4,6 +4,7 @@
 
   body{
       font-family: 'Helvetica';
+      background-color: rgb(238, 234, 228);
   }
   
 .input {
@@ -41,7 +42,6 @@
   #display{
       display: flex;
       flex-direction: column;
-      border: 2px solid;
       height: 130px;
       text-align: center;
       justify-content: center;
