@@ -15,7 +15,7 @@ function getFontSize(){
     const fontInput = inputSize.value
     // show it in the html
     showSize.innerHTML = fontInput
-    display.fontSize = fontInput
+    display.style.fontSize = fontInput + 'px'
 }
 // gets the input from the select menu and updates the display box and settings
 function getFontFamily(){
